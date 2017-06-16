@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     activeadmin_associations (0.2.0)
-      activeadmin (= 1.0.0.pre4)
       rails (~> 4.0)
 
 GEM
