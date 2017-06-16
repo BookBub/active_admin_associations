@@ -65,7 +65,7 @@ module ActiveAdminAssociationsHelper
     end
     entries_name = entry_name.pluralize unless entries_name
 
-    if collection.num_pages < 2
+    if collection.max_pages < 2
       case collection.size
       when 0; I18n.t('active_admin.pagination.empty', :model => entries_name)
       when 1; I18n.t('active_admin.pagination.one', :model => entry_name)
