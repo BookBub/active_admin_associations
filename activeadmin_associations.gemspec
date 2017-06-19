@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.extra_rdoc_files = ["README.md", "MIT_LICENSE.txt"]
 
-  s.add_dependency 'activeadmin', '1.0.0.pre4'
   s.add_dependency 'rails', '~> 4.0'
 
   s.add_development_dependency 'rspec-rails', '~> 2.14.1'
