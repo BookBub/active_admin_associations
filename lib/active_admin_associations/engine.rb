@@ -15,8 +15,6 @@ module ActiveAdminAssociations
         ActiveSupport.on_load(:active_record) do
           ActiveRecord::Base.send(:include, ActiveAdminAssociations::Autocompleter)
         end
-      
-        Formtastic::Helpers::InputHelper.send(:include, Formtastic::TokenInputDefaultForAssociation)
       end
     end
   end
